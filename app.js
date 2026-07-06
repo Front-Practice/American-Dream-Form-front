@@ -16,7 +16,7 @@ const COURSES = [
   { key: 'Kids English',     title: 'Английский для детей',  desc: 'Игровой формат для детей 5–10 лет.' },
   { key: 'Math',             title: 'Математика',            desc: 'Школьная и олимпиадная математика.' },
   { key: 'Russian',          title: 'Русский язык',          desc: 'Грамотность и разговорная речь.' },
-  { key: 'Coding',           title: 'Программирование',      desc: 'Scratch, Python — для подростков.' },
+  { key: 'Coding',           title: 'Программирование',      desc: 'NodeJS, Python — для подростков.' },
 ];
 
 // Branches. `id` MUST match the branch id in the bot DB (seed: BR1=1, BR2=2).
@@ -24,14 +24,26 @@ const COURSES = [
 const BRANCHES = [
   {
     id: 1,
-    name: 'Чорсу',
-    address: 'ул. Примерная 1, Ош',
-    courses: ['English (General)', 'IELTS', 'Kids English', 'Math'],
+    name: 'Amrican Dream OSH ',
+    address: 'ул. Атабаева 24, Ош',
+    courses: ['English (General)', 'IELTS', 'Kids English', 'Math', 'OPT'],
   },
   {
     id: 2,
-    name: 'Юнусабад',
-    address: 'ул. Примерная 2, Ош',
+    name: 'Араванская',
+    address: 'ул. Моминова 21, Ош',
+    courses: ['English (General)', 'Russian'],
+  },
+    {
+    id: 3,
+    name: 'Кара-Суу',
+    address: 'ул. Ала-Тоо 87',
+    courses: ['English (General)', 'Coding', 'English for Kids', 'Корейский', 'Китайский'],
+  },
+    {
+    id: 4,
+    name: 'Араван',
+    address: 'ул. Ленина 18',
     courses: ['English (General)', 'Russian', 'Coding', 'Math'],
   },
 ];
