@@ -1,0 +1,8 @@
+# Netlify serves this site over HTTPS. It proxies /api/* to the backend
+# server-side, so the browser never makes a plain-HTTP request (no mixed-content
+# block) and there is no cross-origin call (no CORS needed).
+[[redirects]]
+  from = "/api/*"
+  to = "http://144.91.86.74:5555/:splat"
+  status = 200
+  force = true

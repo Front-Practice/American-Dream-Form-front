@@ -3,8 +3,12 @@
  * EDIT THIS BLOCK to swap placeholder data for real courses/branches.
  * ==========================================================================*/
 
-// Bot API base. Change to your deployed host in production.
-const API_BASE = 'http://localhost:3000';
+// Bot API base. In production Netlify proxies /api/* to the backend
+// (see netlify.toml) — keeps everything same-origin HTTPS, no CORS/mixed-content.
+// For local dev against a local backend, use 'http://localhost:3000'.
+// Netlify proxies /api/* to the backend (see netlify.toml) — same-origin HTTPS,
+// no mixed-content, no CORS. Locally, set to 'http://localhost:5555'.
+const API_BASE = '/api';
 
 // Instagram of the edu center.
 const INSTAGRAM_URL = 'https://www.instagram.com/americandream.osh/';
