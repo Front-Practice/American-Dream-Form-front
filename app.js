@@ -40,15 +40,15 @@ const BRANCHES = [
   },
     {
     id: 3,
-    name: 'Кара-Суу',
-    address: 'ул. Ала-Тоо 87',
-    courses: ['English (General)', 'Coding', 'English for Kids', 'Корейский', 'Китайский'],
-  },
-    {
-    id: 4,
     name: 'Араван',
     address: 'ул. Ленина 18',
     courses: ['English (General)', 'Russian', 'Coding', 'Math'],
+  },
+    {
+    id: 4,
+    name: 'Кара-Суу',
+    address: 'ул. Ала-Тоо 87',
+    courses: ['English (General)', 'Coding', 'English for Kids', 'Корейский', 'Китайский'],
   },
 ];
 
