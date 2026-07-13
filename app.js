@@ -28,14 +28,14 @@ const COURSES = [
 const BRANCHES = [
   {
     id: 1,
-    name: 'Amrican Dream OSH ',
-    address: 'ул. Атабаева 24, Ош',
-    courses: ['English (General)', 'IELTS', 'Kids English', 'Math', 'OPT'],
+    name: 'American Dream OSH ',
+    address: 'ул. Атабаева 21, Ош',
+    courses: ['English (General)', 'IELTS', 'Kids English', 'Math', 'OPT', 'Корейский', 'Китайский', '1C Бугалтерия', 'Арабский', 'Турецкий', 'Химия и Биология'],
   },
   {
     id: 2,
     name: 'Араванская',
-    address: 'ул. Моминова 21, Ош',
+    address: 'ул. Моминова 24, Ош',
     courses: ['English (General)', 'Russian'],
   },
     {
