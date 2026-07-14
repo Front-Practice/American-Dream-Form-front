@@ -30,25 +30,31 @@ const BRANCHES = [
     id: 1,
     name: 'American Dream OSH ',
     address: 'ул. Атабаева 21, Ош',
-    courses: ['English (General)', 'IELTS', 'Kids English', 'Math', 'OPT', 'Корейский', 'Китайский', '1C Бугалтерия', 'Арабский', 'Турецкий', 'Химия и Биология'],
+    courses: ['English (General)', 'IELTS', 'Kids English', 'Math', 'OPT', 'Корейский', 'Китайский', '1C Бугалтерия', 'Арабский', 'Турецкий', 'Химия и Биология','Coding'],
   },
   {
     id: 2,
     name: 'Араванская',
     address: 'ул. Моминова 24, Ош',
-    courses: ['English (General)', 'Russian'],
+    courses: ['English (General)', 'Russian', 'Начальный класс' , 'Китайский', 'Арабский', 'IELTS'],
   },
     {
     id: 3,
     name: 'Араван',
     address: 'ул. Ленина 18',
-    courses: ['English (General)', 'Russian', 'Coding', 'Math'],
+    courses: ['English (General)', 'Russian', 'Math'],
   },
     {
     id: 4,
     name: 'Кара-Суу',
     address: 'ул. Ала-Тоо 87',
-    courses: ['English (General)', 'Coding', 'English for Kids', 'Корейский', 'Китайский'],
+    courses: ['English (General)', 'Coding', 'English for Kids', 'Корейский', 'Китайский', 'Начальный класс',],
+  },
+  {
+    id: 5,
+    name: 'Жибек-Жолу 10 Адыр',
+    address: 'ул. Геодезический 40',
+    courses: ['English (General)', 'Coding', 'English for Kids', 'Начальный класс',]
   },
 ];
 
